@@ -10,11 +10,11 @@ public class Main {
         // Exercise 2
 
         System.out.println("Enter a temperature in Celsius: ");
-        double Celcius = Scanner.nextDouble();
+        double Celsius = Scanner.nextDouble();
 
-        double Fahrenheit = Celcius * 9 / 5 + 32;
+        double Fahrenheit = Celsius * 9 / 5 + 32;
 
-        System.out.printf("%.1f C = %.1f F\n", Celcius, Fahrenheit);
+        System.out.printf("%.1f C = %.1f F\n", Celsius, Fahrenheit);
         System.out.println("");
 
         // Exercise 3
