@@ -15,7 +15,7 @@ public class Main {
         double Fahrenheit = Celcius * 9 / 5 + 32;
 
         System.out.printf("%.1f C = %.1f F\n", Celcius, Fahrenheit);
-
+        System.out.println("");
 
         // Exercise 3
 
@@ -31,6 +31,7 @@ public class Main {
         sec = (secTotal % SEC_PER_MIN);
 
         System.out.printf("%d seconds = %d hour, %d minutes and %d seconds.\n", secTotal, hour, min, sec);
+        System.out.println("");
 
         // Exercise 4
 
