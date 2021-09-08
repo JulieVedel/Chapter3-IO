@@ -15,7 +15,7 @@ public class Main {
         double Fahrenheit = Celsius * 9 / 5 + 32;
 
         System.out.printf("%.1f C = %.1f F\n", Celsius, Fahrenheit);
-        System.out.println("");
+        System.out.println();
 
         // Exercise 3
 
@@ -31,7 +31,7 @@ public class Main {
         sec = (secTotal % SEC_PER_MIN);
 
         System.out.printf("%d seconds = %d hour, %d minutes and %d seconds.\n", secTotal, hour, min, sec);
-        System.out.println("");
+        System.out.println();
 
         // Exercise 4
 
@@ -41,7 +41,7 @@ public class Main {
         System.out.println("I'm thinking of a number between 1 and 100\n" +
                 "(including both). Can you guess what it is?");
         System.out.println("Type a number: ");
-        int yourNumber = (int) Scanner.nextInt();
+        int yourNumber = Scanner.nextInt();
 
         System.out.println("Your guess is: " + yourNumber);
         System.out.println("The number i was thinking of was: " + randomNumber);
